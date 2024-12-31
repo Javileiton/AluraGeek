@@ -1,0 +1,126 @@
+/* Estilos Generales */
+body {
+    font-family: 'Oxygen', sans-serif; /* Aplicando la fuente Oxygen */
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #C004D9;
+    font-size: 35px;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Estilos de los productos */
+.product-list {
+    width: 60%;
+    height: 500px; /* Altura fija para el contenedor */
+    overflow-y: auto; /* Permite desplazarse verticalmente */
+    padding: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #C004D9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.description, .price {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos del formulario */
+.form-container {
+    width: 35%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-btn {
+    background-color: #C004D9;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Pie de Página */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

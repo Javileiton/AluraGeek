@@ -1,0 +1,62 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Chevrolet Captiva",
+      "descripcion": "Un SUV espacioso y cómodo, ideal para viajes familiares.",
+      "precio": "$25,000,000",
+      "imagen": "./imagenes/captiva.JPG"
+    },
+    {
+      "id": 2,
+      "nombre": "Renault Duster",
+      "descripcion": "SUV compacta con un diseño moderno y gran eficiencia de combustible.",
+      "precio": "$18,500,000",
+      "imagen": "./imagenes/duster.JPG"
+    },
+    {
+      "id": 3,
+      "nombre": "Volkswagen Jetta",
+      "descripcion": "Sedán elegante con un motor potente y excelente rendimiento.",
+      "precio": "$22,000,000",
+      "imagen": "./imagenes/jetta.JPG"
+    },
+    {
+      "id": 4,
+      "nombre": "Ford Escape",
+      "descripcion": "SUV versátil y con características de tecnología avanzada para una conducción cómoda.",
+      "precio": "$23,500,000",
+      "imagen": "./imagenes/escape.JPG"
+    },
+    {
+      "id": 5,
+      "nombre": "Nissan Frontier",
+      "descripcion": "SUV robusta ideal para aventuras off-road, con gran capacidad de carga.",
+      "precio": "$40,000,000",
+      "imagen": "./imagenes/frontier.JPG"
+    },
+    {
+      "id": 6,
+      "nombre": "Mazda Cx-5",
+      "descripcion": "SUV de tamaño medio con un diseño sofisticado y gran economía de combustible.",
+      "precio": "$27,000,000",
+      "imagen": "./imagenes/cx-5.JPG"
+    },
+    {
+      "id": 7,
+      "nombre": "Nissan Sentra",
+      "descripcion": "Hermoso sedan, espacioso, familiar y gran economía de combustible.",
+      "precio": "$17,000,000",
+      "imagen": "./imagenes/sentra.JPG"
+    },
+    {
+      "id": 8,
+      "nombre": "Chevrolet Spark Gt",
+      "descripcion": "Hatchback, super economico de combustible, familiar, de buen procedencia, perfecto estado.",
+      "precio": "$22,000,000",
+      "imagen": "./imagenes/spark.JPG"
+    }
+
+  ]
+}
+

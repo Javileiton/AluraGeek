@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALURA GEEK</title>
+    <!-- Vinculación a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./js/style.css">
+</head>
+<body>
+    <header>
+        <h1>ALURA GEEK</h1>
+    </header>
+
+    <div class="container">
+        <!-- Lado izquierdo: Mis Productos -->
+        <div class="product-list">
+            <h2>MIS PRODUCTOS</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <strong>1. Chevrolet Captiva</strong><br>
+                    <img src="./imagenes/captiva.JPG" alt="Chevrolet Captiva">
+                    <span class="description">Un SUV espacioso y cómodo, ideal para viajes familiares.</span><br>
+                    <span class="price">$25,000,000</span>
+                </div>
+                <div class="product-item">
+                    <strong>2. Renault Duster</strong><br>
+                    <img src="./imagenes/duster.JPG" alt="Renault Duster">
+                    <span class="description">SUV compacta con un diseño moderno y gran eficiencia de combustible.</span><br>
+                    <span class="price">$18,500,000</span>
+                </div>
+                <div class="product-item">
+                    <strong>3. Volkswagen Jetta</strong><br>
+                    <img src="./imagenes/jetta.JPG" alt="Volkswagen Jetta">
+                    <span class="description">Sedán elegante con un motor potente y excelente rendimiento.</span><br>
+                    <span class="price">$22,000,000</span>
+                </div>
+                <div class="product-item">
+                    <strong>4. Ford Escape</strong><br>
+                    <img src="./imagenes/escape.JPG" alt="Ford Escape">
+                    <span class="description">SUV versátil y con características de tecnología avanzada para una conducción cómoda.</span><br>
+                    <span class="price">$23,500,000</span>
+                </div>
+                <div class="product-item">
+                    <strong>5. Nissan Frontier</strong><br>
+                    <img src="./imagenes/frontier.JPG" alt="Nissan Frontier">
+                    <span class="description">SUV robusta ideal para aventuras off-road, con gran capacidad de carga.</span><br>
+                    <span class="price">$40,000,000</span>
+                </div>
+                <div class="product-item">
+                    <strong>6. Mazda Cx-5</strong><br>
+                    <img src="./imagenes/cx-5.JPG" alt="Mazda Cx-5">
+                    <span class="description">SUV de tamaño medio con un diseño sofisticado y gran economía de combustible.</span><br>
+                    <span class="price">$27,000,000</span>
+                </div>
+                <div class="product-item">
+                    <strong>7. Nissan Sentra</strong><br>
+                    <img src="./imagenes/sentra.JPG" alt="Mazda Cx-5">
+                    <span class="description">Hermoso sedan, espacioso, familiar y gran economía de combustible.</span><br>
+                    <span class="price">$17,000,000</span>
+                </div>
+                <div class="product-item">
+                    <strong>8. Chevrolet Spark Gt</strong><br>
+                    <img src="./imagenes/spark.JPG" alt="Mazda Cx-5">
+                    <span class="description">Hatchback, super economico de combustible, familiar, de buen procedencia, perfecto estado.</span><br>
+                    <span class="price">$22,000,000</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lado derecho: Formulario -->
+        <div class="form-container">
+            <h2>Agregar Producto</h2>
+            <form action="#" method="post">
+                <label for="name">Marca y Modelo:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="description">Descripción:</label>
+                <input type="text" id="description" name="description" required><br><br>
+
+                <label for="price">Precio:</label>
+                <input type="text" id="price" name="price" required><br><br>
+
+                <label for="image">Imagen (URL):</label>
+                <input type="url" id="image" name="image" required><br><br>
+
+                <button type="submit" class="submit-btn">Enviar</button>
+                <button type="reset" class="reset-btn">Limpiar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Desarrollado por: Javier Leiton</p>
+        <p>ALURA LATAM 2024.</p>
+        <p>javierleiton@gmail.com</p>
+    </footer>
+
+    <script src="conexionAPI.js"></script>
+</body>
+</html>
